@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ExcelPastePoC.ClipboardSupport\ExcelPastePoC.ClipboardSupport.csproj" />
+    <ProjectReference Include="..\ExcelPastePoC.DataConversion\ExcelPastePoC.DataConversion.csproj" />
+    <ProjectReference Include="..\ExcelPastePoC.Models\ExcelPastePoC.Models.csproj" />
+  </ItemGroup>
+
+</Project>
